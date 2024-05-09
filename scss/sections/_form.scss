@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+    label{
+        input{
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        }
+        textarea{
+            border-radius: 10px;
+        }
+    }
+    .boton{
+        background-color: $btn;
+        border-radius: 10px;
+        
+    }
+    
+
+}

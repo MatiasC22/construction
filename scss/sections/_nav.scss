@@ -1,0 +1,22 @@
+/* Barra de Navegacion */
+
+.navegacion{
+    background-color: $mostaza;
+    padding: 10px;
+    ul{
+        display: flex;
+        background-color: $rosita;
+        list-style-type: none;
+        justify-content: center;
+        border-radius: 30px;
+        li{
+            padding: 10px;
+            margin: 10px;
+            a{
+                color: white;
+                text-align: center;
+                box-shadow: 2px 2px;
+            }
+        } 
+    }
+}

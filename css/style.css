@@ -9,6 +9,24 @@
 /* font-family: "Bacasime Antique", serif; */
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Oxygen", sans-serif; */
+/* Barra de Navegacion */
+.navegacion {
+  background-color: #e6e92a;
+  padding: 10px; }
+  .navegacion ul {
+    display: flex;
+    background-color: #c95858;
+    list-style-type: none;
+    justify-content: center;
+    border-radius: 30px; }
+    .navegacion ul li {
+      padding: 10px;
+      margin: 10px; }
+      .navegacion ul li a {
+        color: white;
+        text-align: center;
+        box-shadow: 2px 2px; }
+
 body {
   background-image: url("https://img.freepik.com/foto-gratis/superficie-metal-rayado-estilo-grunge-oscuro_1048-12951.jpg?w=826&t=st=1711403665~exp=1711404265~hmac=4462bda3f25d2f004400f46422eb3c07fe3cc0578b66b63c1cad97542178b056");
   background-size: cover;
@@ -16,6 +34,21 @@ body {
   background-repeat: no-repeat;
   height: auto;
   color: white; }
+  body .nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body .nos h3 {
+      color: aliceblue;
+      font-size: 50px; }
+    body .nos .iframe iframe {
+      display: inline-flex;
+      border-radius: 30px;
+      justify-content: center ali; }
+    body .nos p {
+      color: aliceblue;
+      font-size: 30px;
+      width: 600px; }
 
 .main-principal {
   display: flex;
@@ -25,7 +58,14 @@ body {
     border-radius: 255px; }
   .main-principal p {
     font-family: "Roboto", sans-serif;
-    color: aliceblue; }
+    color: aliceblue;
+    width: 600px;
+    font-size: 30px;
+    padding: 10px;
+    border: 10px; }
+
+main h2 {
+  color: white; }
 
 main .trabajos {
   display: block; }
@@ -36,3 +76,115 @@ main .trabajos {
     color: white; }
   main .trabajos div p {
     color: white; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  font-size: 30px; }
+  .form label input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; }
+  .form label textarea {
+    border-radius: 10px; }
+  .form .boton {
+    background-color: #db8bb7;
+    border-radius: 10px; }
+
+.main-galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main-galeria .grid-galeria {
+    display: grid;
+    grid-template-areas: "img1 img1 img1 img3 img3 img3" "img1 img1 img1 img3 img3 img3" "img4 img4 img4 img6 img6 img6" "img4 img4 img4 img6 img6 img6" "img2 img2 img2 img5 img5 img5" "img2 img2 img2 img5 img5 img5";
+    grid-template-rows: repeat(6, 200px);
+    grid-template-columns: repeat(6, 200px); }
+    .main-galeria .grid-galeria div {
+      overflow: hidden;
+      border-radius: 5px;
+      padding: 0px; }
+      .main-galeria .grid-galeria div img {
+        height: 100%; }
+    .main-galeria .grid-galeria .img-1 {
+      grid-area: img1;
+      background-color: #be6b13;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main-galeria .grid-galeria .img-1 img {
+      width: 100%;
+      border-radius: 35px; }
+    .main-galeria .grid-galeria .img-2 {
+      grid-area: img2;
+      background-color: #1343be;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main-galeria .grid-galeria .img-2 img {
+      width: 100%;
+      border-radius: 35px; }
+    .main-galeria .grid-galeria .img-3 {
+      grid-area: img3;
+      background-color: #13a4be;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main-galeria .grid-galeria .img-3 img {
+      width: 100%;
+      border-radius: 35px; }
+    .main-galeria .grid-galeria .img-4 {
+      grid-area: img4;
+      background-color: #6b13be;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main-galeria .grid-galeria .img-4 img {
+      width: 100%;
+      border-radius: 35px; }
+    .main-galeria .grid-galeria .img-5 {
+      grid-area: img5;
+      background-color: #be1371;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main-galeria .grid-galeria .img-5 img {
+      width: 100%;
+      border-radius: 35px; }
+    .main-galeria .grid-galeria .img-6 {
+      grid-area: img6;
+      background-color: #be6b13;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main-galeria .grid-galeria .img-6 img {
+      width: 100%;
+      border-radius: 35px; }
+
+@media (max-width: 765px) {
+  .grid-galeria {
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 200px); }
+  .grid-galeria img {
+    height: 100%; } }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  background-color: #a1b8e2;
+  color: black;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px; }
+  footer div ul li {
+    list-style: none; }
+    footer div ul li a {
+      text-decoration: none;
+      color: black; }

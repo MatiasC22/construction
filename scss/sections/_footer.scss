@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: rgb(161, 184, 226);
+    color: black;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    div{
+        ul{
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+    
+}
