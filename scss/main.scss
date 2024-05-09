@@ -2,6 +2,8 @@
 @import "./utilities/color";
 //Reseteo
 @import "./utilities/reseteo";
+//Extend
+@import "./utilities/extend";
 //Letras
 @import "./utilities/font-family";
 
@@ -13,3 +15,7 @@
 @import "./sections/form";
 @import "./sections/main-galeria";
 @import "./sections/footer";
+
+//Medias queries
+@import "./sections/nav-queri";
+@import "./sections/galeria-media-quieries";

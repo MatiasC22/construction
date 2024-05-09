@@ -1,0 +1,25 @@
+@media (max-width: 765px) {
+    
+    .main-galeria{
+        .grid-galeria{
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        ; 
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 200px); 
+        
+        img{
+            height: 100%;
+        }
+    }
+    }
+    
+
+   
+
+}

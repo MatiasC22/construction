@@ -1,7 +1,6 @@
+/* Formulario */
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .flex-column;
     color: aliceblue;
     font-size: 30px;
     label{

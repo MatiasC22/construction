@@ -1,0 +1,613 @@
+00:47:12	Franco Facchini:	Replying to "che alguien tiene au..."
+
+si, fíjate la configuración de audio del zoom
+00:49:13	Sebastian Fernandez:	sisi
+00:49:14	Lucas Da Cruz:	sisi
+00:49:16	CLAUDIO MARCELO CARABELLA:	si
+00:49:16	Javier Alejandro Tevez:	si1
+00:49:17	Salvador Matias Fernandez:	Ssii
+00:49:18	Tomás Dumont:	sisi
+00:50:45	Francisco Giovanaz Romero:	¿Podras decirnos el aplicativo de saas?
+00:50:54	[PROFE] Johanna Palo:	Live Sass Compiler
+00:51:10	[PROFE] Johanna Palo:	{    "security.workspace.trust.untrustedFiles": "open",    "explorer.confirmDelete": false,    "workbench.colorTheme": "Dracula",    "window.zoomLevel": 1,    "workbench.iconTheme": "vscode-icons",    "liveServer.settings.donotVerifyTags": true,    "workbench.startupEditor": "none",    "liveServer.settings.donotShowInfoMsg": true,    "explorer.confirmDragAndDrop": false,    "git.enableSmartCommit": true,    "git.confirmSync": false,    "liveSassCompile.settings.forceBaseDirectory": "",    "liveSassCompile.settings.formats": [        {            "format": "expanded",            "extensionName": ".css",            "savePath": "./css",            "savePathReplacementPairs": null        }    ],    "liveSassCompile.settings.autoprefix": [                        ]}
+00:52:59	Daniela Iuorio:	Hola! Llegue tarde, disculpas. Ya arrancamos con animaciones?
+00:53:05	Leonardo Fernandez:	me sale este error
+00:54:04	Leonardo Fernandez:	gracias
+00:54:05	Manuel Rodriguez:	profe una consulta, si por ej le puse estilo al main y al body, que carpeta les creo? los meti en sections (_general.scss)
+00:55:42	Franco Facchini:	main sería lo mismo que un div no?
+00:56:09	Franco Facchini:	perfecto, gracias
+00:56:41	[TUTOR] Thiago Sosa:	Replying to "main sería lo mismo ..."
+
+si pero cumple una función semántica distinta. Ojo ahi
+00:57:02	Fernando Ledesma Sánchez:	la pagina del señor X
+00:57:03	Héctor Javier:	HiperMegaRed
+00:57:04	Franco Facchini:	vamos a decir "puede darme dinero"?
+00:57:40	[PROFE] Johanna Palo:	<body>    <nav>        <li>Link 1</li>        <li>Link 2</li>        <li>Link 3</li>    </nav>    <main class="main">        <div class="caja-1">Caja 1</div>        <div class="caja-2">Caja 2</div>        <div class="caja-3">Caja 3</div>        <div class="caja-4">Caja 4</div>        <div class="caja-5">Caja 5</div>    </main>    <footer>        <div>Facebook</div>        <div>Twitter</div>        <div>Gmail</div>    </footer></body>
+00:57:44	Mauro Romano:	profe
+00:57:48	Mauro Romano:	como hicistepara replicar las clases?
+00:58:02	Lucas Biscotti:	profe. cómo es que escribe en todas las líneas? Alt?
+00:58:06	Lucas Biscotti:	Listo jajaj
+00:58:08	Mauro Romano:	grax!
+00:59:12	Franco Gatti Candelero:	Hola, tengo problemas de conectividad. Puede que me desconecte varias veces.
+00:59:31	[TUTOR] Thiago Sosa:	Replying to "Hola, tengo problema..."
+
+tranqui fran
+00:59:53	Franco Facchini:	pregunta nada que ver, puede ser que ya el Jueves que viene tengamos otra pre-entrega?
+00:59:56	Mauro Romano:	como ponene una sola comilla?
+00:59:58	Mauro Romano:	jajaja
+01:00:02	[PROFE] Johanna Palo:	'
+01:00:10	Mauro Romano:	Gracias profe! la encontre
+01:00:23	[TUTOR] Juan Narvaez:	Replying to "pregunta nada que ve..."
+
+Si, asi es
+01:01:00	Fernando Ledesma Sánchez:	Cual la diferencia entre el @use y el @import para llamar a un modulo?
+01:01:06	Federico Stasi:	profe me mostras de nuevo el url del scss
+01:01:30	[TUTOR] Juan Narvaez:	Reacted to "{E00DAC06-E8BB-4962-8F49-2D1E9DDF8521}.png" with 😂
+01:01:45	[TUTOR] Juan Narvaez:	Replying to "pregunta nada que ve..."
+
+Es la tercera y luego la entraga final
+01:01:59	Sebastian Fernandez:	bien
+01:02:01	Francisco Giovanaz Romero:	No
+01:02:02	Héctor Javier:	bien
+01:02:03	Francisco Giovanaz Romero:	Me perdi
+01:02:07	Lucas Da Cruz:	no me saque el main!! jaja
+01:02:07	Franco Facchini:	masomenos, pero es porque ando atrasado con el SASS
+01:02:14	[TUTOR] Thiago Sosa:	Replying to "Cual la diferencia e..."
+
+son solo diferentes formas de llamarlo. Por lo que tengo entendido no hay mucha diferencia.
+01:02:15	Christian Fortes:	hasta el momento lo que ya dimos
+01:02:18	Francisco Giovanaz Romero:	EStoy configurando el aplicativo del saas. Pero no impota segui la clase.
+01:02:38	Francisco Giovanaz Romero:	Esperando a que me @[TUTOR] Thiago Sosa me responda.
+01:02:53	[TUTOR] Thiago Sosa:	Replying to "Esperando a que me @..."
+
+ahí te hable al privado!
+01:02:59	Fernando Ledesma Sánchez:	Replying to "Cual la diferencia e..."
+
+ok, gracias
+01:03:19	Franco Facchini:	Replying to "pregunta nada que ve..."
+
+nervioso de cómo quedó la primera, tenía algunos errores que por el tiempo no pude razonar como resolver jajja, y ya hay que ir preparando lo nuevo. ufff jajaja
+01:03:41	Jordan Aguirre:	en donde estaría el error?
+01:03:51	Augusto Soto Jeria:	Replying to "en donde estaría el ..."
+
+Te faltó el ;
+01:03:59	Christian Fortes:	y display flex
+01:04:09	Franco Facchini:	Replying to "en donde estaría el ..."
+
+; al final del primer import
+01:04:17	Franco Facchini:	Replying to "en donde estaría el ..."
+
+para diferenciar un comando del otro
+01:04:20	Augusto Soto Jeria:	Replying to "en donde estaría el ..."
+
+de cada import
+01:04:34	Franco Facchini:	Replying to "en donde estaría el ..."
+
+bueno si, si vas a escribir abajo, obviamente el segundo lo va a necesitar
+01:05:02	Jordan Aguirre:	Replying to "en donde estaría el ..."
+
+graciass
+01:07:01	Federico Stasi:	eso es solo para css o se puede hacer en css común?
+01:07:20	Federico Stasi:	para scss*
+01:10:13	[TUTOR] Thiago Sosa:	Replying to "eso es solo para css..."
+
+el mixin es para scss
+01:10:24	[TUTOR] Thiago Sosa:	Replying to "eso es solo para css..."
+
+lo mismo el extend
+01:11:21	Franco Gatti Candelero:	Es solo con un parámetro?
+01:11:31	Franco Facchini:	osea el mixin nos permite traer la configuración de una clase, pero con parámetros que se pueden modificar?
+01:12:20	Franco Facchini:	claro, es como una función, es obligatorio que incluya los 2 parámetros
+01:12:23	Augusto Soto Jeria:	buenisimo
+01:12:49	Franco Facchini:	se pueden definir 2 mixin para la misma clase? una con 1 parámetro y otra con 2?
+01:13:25	Franco Facchini:	para poder permitir escribirlo tanto con 1 parámetro como con 2, pero que esto cambie su comportamiento, dependiendo de cuantos parámetros reciba
+01:13:53	Franco Gatti Candelero:	Ahora entiendo que este tipo de herramientas son convenientes con sitios web extensos, donde hay mucho material para diseñar, pero en sitios web pequeños y de poca repetición de líneas seria medio al pepe no?
+01:14:21	[TUTOR] Thiago Sosa:	Replying to "Ahora entiendo que e..."
+
+claro, sass se aplica mas a eso. Porque piensen que no tenemos mucho para optimizar nosotros
+01:14:32	[TUTOR] Thiago Sosa:	Replying to "Ahora entiendo que e..."
+
+pero siempre es bueno tenerlo sabido ya que es un gran complemento
+01:14:42	Francisco Giovanaz Romero:	¿Vas a subir lo de esta claes?
+01:14:44	Franco Gatti Candelero:	Replying to "Ahora entiendo que e..."
+
+Claro porque al final en algo pequeño te genera mas desgaste crear todo esto que escribir un simple css
+01:14:54	Francisco Giovanaz Romero:	Porque me rrreperdí y no pude iniciar Saas.
+01:15:04	[PROFE] Johanna Palo:	.flex-column{    display: flex;    flex-direction: column;    justify-content: center;    align-items: center;}// Mixin@mixin cajas ($color, $fuente){    background-color: $color;    border: 2px black solid;    width: 300px;    height: 300px;    text-align: center;    font-family: $fuente;    margin: 30px;    display: flex;    justify-content: center;    align-items: center;}
+01:15:08	[TUTOR] Thiago Sosa:	Replying to "¿Vas a subir lo de e..."
+
+siempre se sube
+01:15:08	[PROFE] Johanna Palo:	.main{    @extend .flex-column;    .caja-1{        @include cajas (#212121bd, sans-serif);    }    .caja-2{        @include cajas (#ff0d00a8, serif);    }    .caja-3{        @include cajas (#0044ffc1, monospace);    }    .caja-4{        @include cajas (#ffaa00c1, fantasy);    }    .caja-5{        @include cajas (#c3ff00c1, cursive);    }}
+01:15:21	Francisco Giovanaz Romero:	La próxima por favor para lo que usamos el manual, danos tiempo a iniciar.
+01:15:22	Francisco Giovanaz Romero:	Gracias.
+01:15:39	Augusto Soto Jeria:	Y como sería para un gradiente? background-image: linear-gradient(45deg, $color, $color); ??
+01:16:08	Franco Facchini:	Replying to "Y como sería para un..."
+
+los parámetros deberían llamarse distinto
+01:16:18	Franco Facchini:	Replying to "Y como sería para un..."
+
+$color1, $color2
+01:16:20	Héctor Javier:	pasas el del main.scss
+01:16:23	Franco Facchini:	Replying to "Y como sería para un..."
+
+eso si es un gradiente de 2 colores
+01:16:29	Franco Facchini:	Replying to "Y como sería para un..."
+
+cuantos más colores, más parámetros
+01:16:30	Bruno Fazzari:	perdon pero no llegue a ver como hacer el watch y demas lineas
+01:16:33	Mauro Romano:	Reacted to "La próxima por favor..." with 👏
+01:16:38	Bruno Fazzari:	no me arma el css, despues lo diras ?
+01:16:55	[PROFE] Johanna Palo:	Replying to "pasas el del main.sc..."
+
+@import './utilidades/reseteo';@import './utilidades/extend-mixin';@import './secciones/cajas';
+01:16:55	Augusto Soto Jeria:	Replying to "Y como sería para un..."
+
+claro, bien
+01:16:57	Héctor Javier:	si
+01:16:58	[TUTOR] Thiago Sosa:	Replying to "Y como sería para un..."
+
+exacto. Como dice fran
+01:17:04	Mauro Romano:	si, yo me atrase instalando la versión larga de sass
+01:17:09	Mauro Romano:	:s
+01:17:15	[TUTOR] Thiago Sosa:	Replying to "perdon pero no llegu..."
+
+el watch de sass??
+01:17:25	Franco Facchini:	repito consulta just in case:se pueden definir 2 mixin para la misma clase? una con 1 parámetro y otra con 2?
+01:17:30	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+sisi
+01:17:39	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+no recuerdo como por ende no lo veo en la pagina
+01:18:02	Franco Facchini:	genial, osea que el comportamiento es igual que el de una función con parámetros de Java
+01:18:10	[TUTOR] Thiago Sosa:	Replying to "perdon pero no llegu..."
+
+fíjate que Joha lo hizo con la extensión hoy. No con la versión de consola, por lo cual al apretar el icono de watch sass, ya lo activa
+01:18:20	Lucas Da Cruz:	por que no me aparece ami
+01:18:24	[TUTOR] Thiago Sosa:	Replying to "genial, osea que el ..."
+
+si, es muy parecido a programación sass
+01:18:27	Francisco Giovanaz Romero:	@[PROFE] Johanna Palo ¿Nos podes pasar todo lo que hiciste en GitHub en un repositorio? Porque no llegué a iniciar el Saas Manual.
+01:18:28	[TUTOR] Thiago Sosa:	Replying to "genial, osea que el ..."
+
+es el pantallazo le dice
+01:18:54	Mauro Romano:	otra consulta, antes de empezar a querer subir todo a GitHub, habría que crear un repositorio de esta clase verdad?
+01:19:05	Salvador Matias Fernandez:	No me esta aplicando al css
+01:19:08	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+npo encuentro el btn
+01:19:34	[TUTOR] Thiago Sosa:	Replying to "perdon pero no llegu..."
+
+fijate sino al apretar click derecho, lo tenes instalada la extensión?
+01:19:51	[TUTOR] Thiago Sosa:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+hola salva, si podes manda captura de todo
+01:20:03	[TUTOR] Thiago Sosa:	Replying to "otra consulta, antes..."
+
+cómo de esta clase??
+01:20:38	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+sisi live sass compli¡¡iler V3
+01:20:50	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+tira deprecated igual
+01:21:56	[TUTOR] Thiago Sosa:	Replying to "perdon pero no llegu..."
+
+al crear el archivo scss debería aparecer
+01:22:05	[TUTOR] Thiago Sosa:	Replying to "perdon pero no llegu..."
+
+sino desinstálalo y volve a instalarlo
+01:22:15	[TUTOR] Thiago Sosa:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+pudiste resolverlo?
+01:22:20	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+ahi aprete el watch pero n lo crea
+01:22:22	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+lo reinstalo
+01:22:29	Leonardo Fernandez:	thiago no puedo resolverlo. hay algo que no permite que se generen los archivos de la carpeta css
+01:23:07	[TUTOR] Thiago Sosa:	Replying to "Captura de pantalla 1.png"
+
+hay algo mal en el json, si podes comparti lo que pusiste en el json
+01:23:09	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+nop, no hay caso
+01:23:13	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+tengo todo pero no lo arma
+01:24:11	[TUTOR] Thiago Sosa:	Replying to "perdon pero no llegu..."
+
+si podes manda screen
+01:24:20	Salvador Matias Fernandez:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+Y acá no me lo aplica al ces, pero tranqui Thiago, miro la clase y luego lo resuelvo repasando. Instale esas manualmente y por ahi cometí un error por hacerlo rapido
+01:24:22	[TUTOR] Juan Narvaez:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+Podes mostrar el package.json?
+01:24:48	[TUTOR] Thiago Sosa:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+eso, comparti el json como dice Juan
+01:24:54	[TUTOR] Juan Narvaez:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+Creo que te falta un path
+01:25:25	[PROFE] Johanna Palo:	.gradiente-vertical{    background-image: linear-gradient(to top, red, yellow, green, blue);}
+01:25:38	Salvador Matias Fernandez:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+@[TUTOR] Juan Narvaez Es muy probable entonces
+01:26:00	Sebastian Fernandez:	profe eso se puede utilizar como un fondo donde la pagina tenga clores
+01:26:03	Juan Saravi:	Buenas noches, perdón la demora. Acá  estamos
+01:26:06	[TUTOR] Thiago Sosa:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+si, fíjate que joha, al instalarlo de esa forma, siempre agrega un path en el json
+01:26:34	[TUTOR] Thiago Sosa:	Replying to "profe eso se puede u..."
+
+si, se puede utilizar como un background
+01:26:56	[PROFE] Johanna Palo:	https://www.notion.so/joapalobael/La-internet-y-sus-vicisitudes-f3cd10115c854ffdbe840c0e7235861a
+01:27:17	Salvador Matias Fernandez:	Replying to "Captura de Pantalla 2024-04-30 a la(s) 19.36.37.png"
+
+Dale perfecto! Les agradezco a los dos lo corrijo en el break
+01:27:34	Sebastian Fernandez:	gracias
+01:27:36	Javier Alejandro Tevez:	mercado libre tiene un gradiente en el fondo fondo
+01:27:43	Manuel Rodriguez:	yo me hice una gradiente animada con un tuto de YouTube es re fácil, dura 2 minutos el video
+01:28:04	[TUTOR] Juan Narvaez:	Reacted to "Dale perfecto! Les a..." with 👍
+01:28:59	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+lo tengo en otra pc ,,... la pucha
+01:29:03	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+igual me dice watching
+01:29:07	Bruno Fazzari:	Replying to "perdon pero no llegu..."
+
+cero errores
+01:29:25	Leonardo Fernandez:	Thiago te paso el json {    "security.workspace.trust.untrustedFiles": "open",    "explorer.confirmDelete": false,    "workbench.colorTheme": "Dracula",    "window.zoomLevel": 1,    "workbench.iconTheme": "vscode-icons",    "liveServer.settings.donotVerifyTags": true,    "workbench.startupEditor": "none",    "liveServer.settings.donotShowInfoMsg": true,    "explorer.confirmDragAndDrop": false,    "git.enableSmartCommit": true,    "git.confirmSync": false,    "liveSassCompile.settings.forceBaseDirectory": "",    "liveSassCompile.settings.formats": [        {            "format": "expanded",            "extensionName": ".css",            "savePath": "./css",            "savePathReplacementPairs": null        }    ],    "liveSassCompile.settings.autoprefix": {                    },    "liveSassCompile.settings.includeItems": [            ],    }
+01:29:56	[TUTOR] Thiago Sosa:	Replying to "Thiago te paso el js..."
+
+leo, ahí te hablo al privado
+01:33:51	Sebastian Fernandez:	nono
+01:33:52	Héctor Javier:	No
+01:33:53	Franco Facchini:	por el momento no
+01:35:36	Manuel Rodriguez:	profe cuando paremos te puedo preguntar algo por favor?
+01:35:51	Franco Facchini:	yo intenté usar el transform con 3 divs para transformar un menú de hamburguesa en una X, pero no me funcionaba jjajaja
+01:36:10	[TUTOR] Thiago Sosa:	Replying to "yo intenté usar el t..."
+
+es complicado solo con css el menú hamburguesa
+01:36:21	Franco Facchini:	Replying to "yo intenté usar el t..."
+
+seguí el tuto de YouTube al pie de la letra pero no quiso saber nada
+01:36:23	[TUTOR] Thiago Sosa:	Replying to "yo intenté usar el t..."
+
+pero vi que pudo
+01:36:34	Franco Facchini:	Replying to "yo intenté usar el t..."
+
+al final lo hice con imágenes jajjaa
+01:38:00	Franco Facchini:	Replying to "yo intenté usar el t..."
+
+@[TUTOR] Thiago Sosa costó pero se pudo. El tema es que me mató al momento de hacer el media query y me dejó sin tiempo para aplicarla a otros elementos
+01:38:02	Bruno Fazzari:	Replying to "Thiago te paso el js..."
+
+na me re perdi, esta rapidisimo..hice todo pero esta parte no llegue a verla
+01:38:20	Mauro Romano:	Replying to "Thiago te paso el js..."
+
+@Bruno Fazzari same
+01:38:41	[TUTOR] Thiago Sosa:	Replying to "yo intenté usar el t..."
+
+es complicado pero con js lo haces de taco
+01:39:05	[TUTOR] Thiago Sosa:	Replying to "Thiago te paso el js..."
+
+chicos, es preferible que presten atención ahora y después en la grabación lo vean bien
+01:39:24	[TUTOR] Thiago Sosa:	Replying to "Thiago te paso el js..."
+
+y yo recomiendo usar la primera forma de instalación de sass
+01:39:56	Bruno Fazzari:	Replying to "Thiago te paso el js..."
+
+es q la instakacion esta bien pero lo importante es al principìo y ahi arrancar, ... hice todo pero no lo veo reflejado
+01:40:01	Bruno Fazzari:	Replying to "Thiago te paso el js..."
+
+nada ... a las chapas
+01:40:05	Bruno Fazzari:	Replying to "Thiago te paso el js..."
+
+gracias igual
+01:40:36	Alejo Tejera:	un botón funcionaria en el box original o en lo visual?
+01:41:32	Alejo Tejera:	Lo digo porque mi idea es superponer un botton en un banner
+01:41:52	[TUTOR] Thiago Sosa:	Replying to "Lo digo porque mi id..."
+
+es buena idea. Seria como para pasar el banner??
+01:42:22	Bruno Fazzari:	Replying to "Thiago te paso el js..."
+
+los que usamos manual, vimos esa forma...si cdo inicia, inicia de la manera auto, obviamente no vamos a poder seguirla si no nos espera...
+01:42:37	Bruno Fazzari:	Replying to "Thiago te paso el js..."
+
+la onda es seguirla pero fue un cachetazo de realidad esto...ja
+01:42:39	Alejo Tejera:	Replying to "Lo digo porque mi id..."
+
+Si, o como un botón de ingresar a la información que se muestra en el banner
+01:43:25	Alejo Tejera:	Replying to "Lo digo porque mi id..."
+
+Si no el botón me ocuparía una linea, o quedaría por debajo del banner, y no mg
+01:43:30	[TUTOR] Thiago Sosa:	Replying to "Lo digo porque mi id..."
+
+fíjate que Bootstrap tiene buenos componentes para eso
+01:43:30	Mauro Romano:	Reacted to "la onda es seguirla ..." with 🥲
+01:43:39	Alejo Tejera:	Reacted to "fíjate que Bootstrap..." with 👍
+01:46:45	Franco Facchini:	Replying to "Lo digo porque mi id..."
+
+@[TUTOR] Thiago Sosa es necesario usar un transform para eso? no sería más cómodo darle un position: absolute, definir la ubicación, y de ahí darle un z-index mayor al banner?
+01:46:58	Franco Facchini:	Replying to "Lo digo porque mi id..."
+
+y como media query, simplemente cambiar el posicionamiento?
+01:47:12	Sebastian Fernandez:	todo bien
+01:47:17	Alejo Tejera:	Replying to "Lo digo porque mi id..."
+
+No la tengo esa info jeje
+01:47:18	Jordan Aguirre:	bastante claro
+01:47:20	Franco Facchini:	todo bien, el problema suele darse al aplicarlas
+01:47:28	Manuel Rodriguez:	profe yo tengo una duda con los backround-img
+01:47:32	Franco Facchini:	pero eso ya queda para pregunta post-clase con los tutores
+01:47:39	Manuel Rodriguez:	no me toma la ruta local desde scss
+01:47:46	[PROFE] Johanna Palo:	Reacted to "no me toma la ruta l..." with 👍
+01:47:56	CLAUDIO MARCELO CARABELLA:	pasa el código porfa
+01:48:25	Francisco Giovanaz Romero:	@[PROFE] Johanna Palo Maso menos. Lamentablemente no te pude seguir, ya que tenía que iniciar el Saas de forma manual. Para la próxima como recomendación, danos 3 minutos en crear un proyecto nuevo para lo que querramos seguirte.
+01:50:07	CLAUDIO MARCELO CARABELLA:	Acordate de revisar porfa también la afterclass de ayer, faltaban los archivos
+01:50:27	[PROFE] Johanna Palo:	https://github.com/JoaPaloBael/clase-14_53680
+01:51:49	[PROFE] Johanna Palo:	Replying to "@[PROFE] Johanna Pal..."
+
+Hola Fran! Tomaré en cuenta esto que comentas. Ya compartí el repo de GitHub para que puedas tener los archivos al día
+01:52:21	Francisco Giovanaz Romero:	Reacted to "Hola Fran! Tomaré en..." with 👍
+01:53:26	Francisco Giovanaz Romero:	Replying to "@[PROFE] Johanna Pal..."
+
+Y por favor andá un poco mas despacio. Todo es nuevo para nosotros. Entiendo que la clase queda grabada, pero la idea es tratar de aprender en vivo. Porque después uno ve las clases grabadas y cuesta un poco tratar de entender lo que uno hizo el día anterior. Es simplemente una recomendación. Gracias.
+01:53:51	[PROFE] Johanna Palo:	Reacted to "Acordate de revisar ..." with 👍
+01:54:25	Bruno Fazzari:	Replying to "@[PROFE] Johanna Pal..."
+
+si por favorrr
+01:55:07	Mauro Romano:	Replying to "@[PROFE] Johanna Pal..."
+
+adhiero profe
+01:55:57	Belen Espalter Gonzalez:	Reacted to "https://github.com..." with 👍
+01:56:15	[PROFE] Johanna Palo:	Replying to "@[PROFE] Johanna Pal..."
+
+Entiendo lo que dicen chics, pero tengan en cuenta que son muchos contenidos que hay que dar en una sola clase y no alcanza el tiempo muchas veces para ir un poco más lento. Trato de hacerlo lo más dinámico y aplicable posible siempre. También leo sus comentarios cuando piden que no queden temas sin explicar <3
+01:56:47	Bruno Fazzari:	Replying to "@[PROFE] Johanna Pal..."
+
+claro pero si no lograMOS HACER LO DEL PRINCIPIO . QUE ES LO MAS IMPORTANTE, NO VAMOS A VER NADA REFLEJADO...QUEDAMOS RE PERDIDOS
+01:56:50	Bruno Fazzari:	Replying to "@[PROFE] Johanna Pal..."
+
+uhhhhhhhhhhhhhh
+01:56:53	Bruno Fazzari:	Replying to "@[PROFE] Johanna Pal..."
+
+perdon las mayusculas
+01:56:56	Bruno Fazzari:	Replying to "@[PROFE] Johanna Pal..."
+
+fue sin querer
+01:57:21	[PROFE] Johanna Palo:	Replying to "@[PROFE] Johanna Pal..."
+
+Lo importante es que puedan ver la clase, Bru! 🙂 Ya luego podes poner en práctica todo cuando estes tranquilo
+01:57:44	[PROFE] Johanna Palo:	Replying to "@[PROFE] Johanna Pal..."
+
+Uno en el apuro de hacer y ver, copia todo rápido sin entender lo que hace
+01:57:58	[PROFE] Johanna Palo:	Replying to "@[PROFE] Johanna Pal..."
+
+es preferible que vean la clase tranquilos, entiendan y después intenten replicar en sus proyectos
+01:59:15	Bruno Fazzari:	Replying to "@[PROFE] Johanna Pal..."
+
+ok, gracias ...Pasas que uno intenta seguir, yo al menos pero fue solo eso porque todo lo demas lo segue y te deja como el gif de John travolta
+02:00:33	CLAUDIO MARCELO CARABELLA:	dale si gracias
+02:00:59	CLAUDIO MARCELO CARABELLA:	quise bajarlo y no estaba cuando los descargue
+02:04:11	CLAUDIO MARCELO CARABELLA:	eso es cuando acercas el mouse o haces click?
+02:04:20	Franco Facchini:	Replying to "eso es cuando acerca..."
+
+ahora está por defecto
+02:04:21	Augusto Soto Jeria:	Replying to "eso es cuando acerca..."
+
+Eso sería usando hover
+02:04:38	Franco Facchini:	Replying to "eso es cuando acerca..."
+
+cuando le ponga :hover o :active ya será en eso casos
+02:06:50	Franco Facchini:	al ser algo simplemente visual, si fuera un link (o mejor dicho un A), la caja que hace que se active el link estará siempre en el mismo lugar, indiferentemente de dónde lo mueva el transform?
+02:06:59	CLAUDIO MARCELO CARABELLA:	y si queres cuando le das un click?
+02:07:28	Francisco Giovanaz Romero:	¿Tengo que iniciar saas no?
+02:08:02	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+para los cambios siempre hay que usar el watch
+02:08:05	Franco Facchini:	ahhhhh
+02:08:30	Franco Facchini:	perfecto, gracias
+02:08:51	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+No entiendo
+02:08:56	Christian Fortes:	nose porque me tente cuando dijo "es lo mas troll"
+02:09:32	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+Disculpá, estoy medio quemado porque fue fin de mes en el trabajo. ¿A qué te referis con Watch?
+02:09:51	Javier Alejandro Tevez:	no va con parentesis
+02:09:52	Javier Alejandro Tevez:	?
+02:09:55	Javier Alejandro Tevez:	el tiempo
+02:09:58	Jordan Aguirre:	0.2 no es muy rápido?
+02:10:16	Jordan Aguirre:	claro
+02:10:19	CLAUDIO MARCELO CARABELLA:	por ej si queres q al hacer click aparezca en pantalla mas grande,
+02:12:14	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+Thiago. ¿A qué te referis con Watch?
+02:13:22	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+Fran, fíjate que para ver los cambios con sass es necesario ya sea o declarar el watch sass en la terminal o activarlo en la extension
+02:15:59	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+¿Y como lo hago eso?
+02:16:10	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+¿Y como lo hago eso?
+02:16:28	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+¿Inicio Saas de vuelta de 0 de forma manual?
+02:16:31	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+COn los pasos me refiero.
+02:16:41	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+si estás con la extensión fíjate que tenes el icono abajo a la derecha
+02:16:50	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+que dice watch sass
+02:16:52	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+@[TUTOR] Thiago Sosa La extensión la desinstale
+02:16:57	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+okey
+02:17:05	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+Corro Saas de vuelta.
+02:17:07	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+ahora si estás en la consola. tenes que poner el siguiente comando
+02:17:16	Francisco Giovanaz Romero:	Reacted to "ahora si estás en la..." with 👍
+02:17:19	Francisco Giovanaz Romero:	Replying to "¿Tengo que iniciar s..."
+
+Dale.
+02:17:56	[TUTOR] Thiago Sosa:	Replying to "¿Tengo que iniciar s..."
+
+npm run watch-css
+02:18:38	Franco Facchini:	las posiciones iniciales y finales
+02:18:42	Franco Facchini:	y luego ir jugando entre esas
+02:21:45	Augusto Soto Jeria:	No es mas sencillo usar la versión corta?animation: giro 5s ease infinite;
+02:23:00	[TUTOR] Thiago Sosa:	Replying to "No es mas sencillo u..."
+
+depende de lo que quieras vos
+02:24:06	Sebastian Fernandez:	profe se puede hacer que valla desde una lado al otro como que pasa la bola de estambre no ?
+02:25:34	Sebastian Fernandez:	messirbe
+02:25:40	Sebastian Fernandez:	buenísimo
+02:26:10	[PROFE] Johanna Palo:	https://animate.style/
+02:26:27	Manuel Rodriguez:	profe
+02:26:33	Manuel Rodriguez:	te puedo hacer una pregunta?
+02:27:01	Belen Espalter Gonzalez:	Reacted to "https://animate.st..." with 👍
+02:27:18	Manuel Rodriguez:	puede ser que sass cada tanto me pida reiniciar vsc?
+02:27:53	Manuel Rodriguez:	si no reinicio no me traduce los cambios a css
+02:28:38	Manuel Rodriguez:	gracias estoy quemado
+02:28:56	[TUTOR] Thiago Sosa:	para los que sean curiosos y quieran ver mas sitios de animaciones paso los siguientes:https://zurb.com/playground/motion-uihttps://uiball.com/ldrs/https://elrumordelaluz.github.io/csshake/
+02:29:16	Diego Ortiz:	Reacted to "para los que sean cu..." with 👍🏻
+02:29:28	[PROFE] Johanna Palo:	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+02:30:10	Manuel Rodriguez:	si el h1 ya lo tengo con clase lo meto todo en un div?
+02:30:42	[TUTOR] Thiago Sosa:	Replying to "si el h1 ya lo tengo..."
+
+le podes agregar una segunda clase al h1
+02:30:43	[PROFE] Johanna Palo:	<h1 class="animate__animated animate__hinge">Clase 14 - Animaciones</h1>
+02:31:03	Manuel Rodriguez:	Replying to "si el h1 ya lo tengo..."
+
+sisi, pensé que capaz no la tomaba
+02:31:05	Manuel Rodriguez:	Replying to "si el h1 ya lo tengo..."
+
+gracias!
+02:31:13	Sebastian Fernandez:	si de casualidad usamos los 2 bustrap y la animación que link
+02:31:29	Sebastian Fernandez:	va primero
+02:32:13	[TUTOR] Thiago Sosa:	Replying to "si de casualidad usa..."
+
+siempre el del css debe ir ultimo
+02:32:20	Sebastian Fernandez:	a ok
+02:32:46	[PROFE] Johanna Palo:	https://michalsnik.github.io/aos/
+02:33:33	Christian Fortes:	uh
+02:33:38	Augusto Soto Jeria:	XD
+02:33:39	Sebastian Fernandez:	se fue la profe
+02:33:49	[TUTOR] Thiago Sosa:	fran pásame el host
+02:33:50	Alejo Tejera:	Hasta el juevees
+02:33:52	[TUTOR] Thiago Sosa:	ahi volvio
+02:33:54	Mauro Romano:	JAJAJAJAJAJJAJAA
+02:34:00	Mauro Romano:	Ay dios
+02:34:04	Bruno Fazzari:	y se marchooooooooooo
+02:34:05	Diego Ferraro:	Reacted to "Hasta el juevees" with 😆
+02:34:06	Belen Espalter Gonzalez:	Reacted to "para los que sean ..." with 👍
+02:34:07	Gonzalo Rodriguez:	Jajajaja
+02:34:08	Francisco Giovanaz Romero:	¿¿¿¿EHHHHHH?
+02:34:11	Francisco Giovanaz Romero:	Se fue
+02:34:11	[TUTOR] Juan Narvaez:	Reacted to "y se marchoooooooooo..." with 😂
+02:34:12	Gonzalo Rodriguez:	Reacted to "y se marchoooooooooo..." with 😂
+02:34:12	Mauro Romano:	Reacted to "y se marchoooooooooo..." with 😂
+02:34:15	Diego Ferraro:	Reacted to "y se marchoooooooooo..." with 😆
+02:34:17	Franco Facchini:	se le cayó creo
+02:34:18	[TUTOR] Thiago Sosa:	nono ahi volvio
+02:34:26	Sebastian Fernandez:	jajaja
+02:34:28	CLAUDIO MARCELO CARABELLA:	no la veo
+02:34:37	Tomás Dumont:	Se fue a ver el partido de boca
+02:34:39	Sebastian Fernandez:	sisi
+02:34:39	CLAUDIO MARCELO CARABELLA:	si sis
+02:34:42	Sebastian Fernandez:	firmes
+02:34:46	Christian Fortes:	Replying to "Se fue a ver el part..."
+
+???? KASKDKASD
+02:34:50	Mauro Romano:	Replying to "Se fue a ver el part..."
+
+daleeeee booooooooooooooooooooooca
+02:35:04	Mauro Romano:	Reacted to "Se fue a ver el part..." with 😂
+02:35:24	Alejo Tejera:	Replying to "Se fue a ver el part..."
+
+💩
+02:35:48	Mauro Romano:	Reacted to "💩" with 👻
+02:36:02	Mauro Romano:	👻
+02:36:24	[PROFE] Johanna Palo:	<!-- AOS -->    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    <script>        AOS.init();      </script>
+02:37:29	Christian Fortes:	se esta cayendo todo ajsdjajsd
+02:38:39	Sebastian Fernandez:	esta mejor , pero como todo cual es la trampa entre una paguina y la otra o que veneficio tiene la primera
+02:39:13	Bruno Fazzari:	y ya que estamos, terminamos mareados del todo xD
+02:39:41	Javier Alejandro Tevez:	profe yo me tengo q ir pero despues lo veo! feliz dia mañana
+02:39:55	[PROFE] Johanna Palo:	https://wowjs.uk/
+02:40:09	Mauro Romano:	Replying to "y ya que estamos, te..."
+
+mal.
+02:40:14	Sebastian Fernandez:	gracias profe
+02:40:34	Jordan Aguirre:	gracias por todo profe
+02:40:57	Mauro Romano:	Profe, esto que va a dar de sass ahora, queda grabado?
+02:41:01	Sebastian Fernandez:	feliz dia mañana
+02:41:15	Sebastian Fernandez:	yo me tengo que ir pero queda grabado esto profe?
+02:41:21	[TUTOR] Thiago Sosa:	Replying to "yo me tengo que ir p..."
+
+si sebas
+02:41:27	CLAUDIO MARCELO CARABELLA:	acordate después de subir todo al github
+02:41:28	Sebastian Fernandez:	Replying to "yo me tengo que ir p..."
+
+muchas gracias
+02:41:57	[PROFE] Johanna Palo:	https://github.com/JoaPaloBael/clase-14_53680.git
+02:42:02	CLAUDIO MARCELO CARABELLA:	y lo del after !!
+02:42:27	Mauro Romano:	Feliz dia mañana para todos, profes tutores y compas! Me voy a ver a boca, Besos!
+02:42:27	[PROFE] Johanna Palo:	Reacted to "y lo del after !!" with ⭐
+02:42:44	[TUTOR] Thiago Sosa:	Replying to "Feliz dia mañana par..."
+
+muchas gracias!
+02:47:34	[TUTOR] Juan Narvaez:	Reacted to "Feliz dia mañana par..." with 👍
+02:55:59	CLAUDIO MARCELO CARABELLA:	por ahora ok
+02:56:09	Franco Facchini:	no, por suerte muy similar a un for e ifs de Java o Python
+02:56:12	Maria Lidia Besson:	solo me quede por curiosidad jajaj
+02:56:14	Franco Facchini:	hay whiles?
+02:56:28	Franco Facchini:	ahhh ok ok
+02:56:37	[TUTOR] Thiago Sosa:	Replying to "no, por suerte muy s..."
+
+exacto
+02:56:49	[TUTOR] Thiago Sosa:	Replying to "no, por suerte muy s..."
+
+en JavaScript son conceptos que se ven mas detallados
+02:57:32	Manuel Rodriguez:	tendrían que hacer un curso aparte de animaciones por que es un mundo, yo hice cosas re locas que no pensé que se podían hacer con css
+02:58:38	[TUTOR] Thiago Sosa:	Replying to "tendrían que hacer u..."
+
+sisi hay un millón de cosas que se pueden hacer
+02:59:55	Manuel Rodriguez:	se pueden poner gradientes con each?
+03:00:07	Manuel Rodriguez:	por ej un backroun-color?
+03:00:49	Manuel Rodriguez:	que bueno
+03:01:21	Bruno Fazzari:	osea, son constructores ?Pero cada vez que itera,osea cada vez que guardas, los pisa ?
+03:02:09	Franco Facchini:	consulta, si recargamos la página, estas clases generadas son temporales no?
+03:02:22	Franco Facchini:	no es que vamos a cargar la memoria hasta que se sature el servidor
+03:02:52	Franco Facchini:	genial
+03:03:38	[TUTOR] Thiago Sosa:	chicos, debo retirarme, les pido disculpas. Feliz dia a todos los trabajadores/as y para vos también Joha
+03:03:51	Manuel Rodriguez:	feliz dia thiago
+03:04:08	[TUTOR] Thiago Sosa:	cualquier cosa me consultasn en el chat de la plataforma, en los próximos dos días llegan las devoluciones de la entrega!
+03:04:25	Maria Lidia Besson:	gracias! feliz dia
+03:05:04	Juan Saravi:	Reacted to chicos, debo retirar... with "👍"
+03:05:15	Juan Saravi:	Igualmente a todos!
+03:05:18	Manuel Rodriguez:	me tengo que ir
+03:05:26	Manuel Rodriguez:	feliz día para todos los trabajadores!
+03:13:19	Maria Lidia Besson:	Gracias profe!! Feliz dia mañana!!!
+03:13:20	Juan Saravi:	A repasarrrr
+03:13:29	CLAUDIO MARCELO CARABELLA:	gracias
+03:13:36	Bruno Fazzari:	Gracias
+03:13:38	Bruno Fazzari:	byeee
+03:13:39	CLAUDIO MARCELO CARABELLA:	acordate de subir todo,
+03:13:41	Juan Saravi:	A ud Profe, igualmente
+03:13:41	Franco Facchini:	chauuu
+03:13:44	Florencia Salgado:	gracias!!!

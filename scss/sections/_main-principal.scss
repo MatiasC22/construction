@@ -1,7 +1,5 @@
 .main-principal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .flex-column;
     img{
         border-radius: 255px;
     }

@@ -1,7 +1,6 @@
 .main-galeria{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .flex-column;
+    
     .grid-galeria {
     
         display: grid;     
@@ -11,94 +10,89 @@
         "img4 img4 img4 img6 img6 img6"
         "img4 img4 img4 img6 img6 img6"
         "img2 img2 img2 img5 img5 img5"
-        "img2 img2 img2 img5 img5 img5";
+        "img2 img2 img2 img5 img5 img5"    
+        ;
         grid-template-rows: repeat(6, 200px);
         grid-template-columns: repeat(6, 200px);
+        
         div{
             overflow: hidden;
             border-radius: 5px;
             padding: 0px;
             img{
-                height: 100%;
-                // border-radius: 35px; 
+                border-radius: 35px;
             }
+
         }
+
         .img-1{
-            grid-area: img1;
-            background-color:$naranja-1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .img-1 img{
-            width: 100%;
-            border-radius: 35px;
-        }
-        
-        .img-2{
-            grid-area: img2;
-            background-color: $azul-1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            
-        }
-        
-        .img-2 img{
-            width: 100%;
-            border-radius: 35px;
-            
-        }
-        
-        .img-3{
-            grid-area: img3;
-            background-color:$celeste-1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .img-3 img{
-            width: 100%;
-            border-radius: 35px;
-        }
-        
-        .img-4{
-            grid-area: img4;
-            background-color: $violesta-1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .img-4 img{
-            width: 100%;
-            border-radius: 35px;
-        }
-        
-        .img-5{
-            grid-area: img5;
-            background-color: $rosita-flu;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .img-5 img{
-            width: 100%;
-            border-radius: 35px;
-        }
-        
-        .img-6{
-            grid-area: img6;
-            background-color:$naranja-1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .img-6 img{
-            width: 100%;
-            border-radius: 35px;
-        }
+    grid-area: img1;
+    background-color: #be7413;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 img{
+    width: 100%;
+}
+
+.img-2{
+    grid-area: img2;
+    background-color: #1343be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-2 img{
+    width: 100%;
+}
+
+.img-3{
+    grid-area: img3;
+    background-color: #13a4be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-3 img{
+    width: 100%;
+}
+
+.img-4{
+    grid-area: img4;
+    background-color: #6b13be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-4 img{
+    width: 100%;
+}
+
+.img-5{
+    grid-area: img5;
+    background-color: #be1371;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-5 img{
+    width: 100%;
+}
+
+.img-6{
+    grid-area: img6;
+    background-color: #be6b13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-6 img{
+    width: 100%;
+}
 
             
        
@@ -106,23 +100,3 @@
     }
 }
 
-@media (max-width: 765px) {
-    
-    .grid-galeria{
-        grid-template-areas: 
-        "img1"
-        "img2"
-        "img3"
-        "img4"
-        "img5"
-        "img6"
-        ; 
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 200px);       
-    }
-
-    .grid-galeria img{
-     height: 100%;    
-    }
-
-}
