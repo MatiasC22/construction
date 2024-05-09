@@ -1,0 +1,13 @@
+.main-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        border-radius: 255px;
+    }
+    p{
+        font-family: "Roboto", sans-serif;
+        color: $blanco-1;
+    }
+
+}

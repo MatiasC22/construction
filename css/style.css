@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* font-family: "Bacasime Antique", serif; */
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Oxygen", sans-serif; */
+body {
+  background-image: url("https://img.freepik.com/foto-gratis/superficie-metal-rayado-estilo-grunge-oscuro_1048-12951.jpg?w=826&t=st=1711403665~exp=1711404265~hmac=4462bda3f25d2f004400f46422eb3c07fe3cc0578b66b63c1cad97542178b056");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  color: white; }
+
+.main-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main-principal img {
+    border-radius: 255px; }
+  .main-principal p {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue; }
+
+main .trabajos {
+  display: block; }
+  main .trabajos div img {
+    height: 500px;
+    padding: 10px; }
+  main .trabajos div h3 {
+    color: white; }
+  main .trabajos div p {
+    color: white; }
