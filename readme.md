@@ -29,8 +29,10 @@
 
     b.Tipear
 
-    /node_modules  (Ignora carpetas)
+    /node_modules  
+    
+    (Ignora carpetas)
 
-    *json (ignora extension de archivos)
+    *.json (ignora extension de archivos)
 
 //FIN   
