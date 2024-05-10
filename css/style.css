@@ -64,7 +64,7 @@ body {
   border: 10px; }
 
 main h2 {
-  color: white;
+  color: #F7FFF7;
   text-align: center;
   font-size: 55px;
   padding: 20px; }
@@ -75,10 +75,10 @@ main .trabajos div {
     width: 600px;
     padding: 20px; }
   main .trabajos div h3 {
-    color: white;
+    color: #F7FFF7;
     text-align: center; }
   main .trabajos div p {
-    color: white;
+    color: #F7FFF7;
     width: 500px;
     text-align: left; }
 
@@ -162,7 +162,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  background-color: #a1b8e2;
+  background-color: #4ECDC4;
   color: black;
   position: static;
   left: 0;
