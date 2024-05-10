@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box; }
 
-.flex-column, body .nos, .main-principal, .form, .main-galeria {
+.flex-column, body .nos, .main-principal, main .trabajos, .form, .main-galeria {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -63,17 +63,23 @@ body {
   border: 10px; }
 
 main h2 {
-  color: white; }
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  padding: 20px; }
 
-main .trabajos {
-  display: block; }
+main .trabajos div {
+  margin: 10px; }
   main .trabajos div img {
-    height: 500px;
-    padding: 10px; }
+    width: 600px;
+    padding: 20px; }
   main .trabajos div h3 {
-    color: white; }
+    color: white;
+    text-align: center; }
   main .trabajos div p {
-    color: white; }
+    color: white;
+    width: 500px;
+    text-align: left; }
 
 /* Formulario */
 .form {
@@ -179,3 +185,34 @@ footer {
     grid-template-rows: repeat(6, 200px); }
     .main-galeria .grid-galeria img {
       height: 100%; } }
+
+@media (max-width: 600px) {
+  main .trabajos div img {
+    width: 400px;
+    padding: 10px; }
+  main .trabajos div p {
+    width: 300px; } }
+
+@media (max-width: 600px) {
+  .main-principal img {
+    border-radius: 255px;
+    width: 400px; }
+  .main-principal p {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px; } }
+
+@media (max-width: 600px) {
+  .nos h3 {
+    padding: 10px; }
+  .nos .iframe iframe {
+    width: 400px; }
+  .nos .texto {
+    width: 300px;
+    font-size: 20px; } }
+
+@media (max-width: 600px) {
+  .form {
+    font-size: 20px; } }

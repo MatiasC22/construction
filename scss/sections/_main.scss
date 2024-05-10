@@ -1,22 +1,37 @@
 main{
+    
     h2{
         color: $blanco;
+        text-align: center;
+        font-size: 55px;
+        padding: 20px
+
+
+        
 
     }
     .trabajos{
-        display: block;
+        @extend .flex-column;
+        
         div{
+
+            margin: 10px;
+            
             img{
-                height: 500px;
-                padding: 10px;
+                width: 600px;
+                padding: 20px;
+                
 
             }
             h3{
                 color: $blanco;
+                text-align: center;
 
             }
             p{
                 color: $blanco;
+                width: 500px;
+                text-align: left;
 
             }
         }
