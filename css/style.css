@@ -52,12 +52,13 @@ body {
     width: 600px; }
 
 .main-principal img {
-  border-radius: 255px; }
+  border-radius: 255px;
+  width: 500px; }
 
 .main-principal p {
   font-family: "Roboto", sans-serif;
   color: aliceblue;
-  width: 600px;
+  width: auto;
   font-size: 30px;
   padding: 10px;
   border: 10px; }
@@ -195,14 +196,9 @@ footer {
 
 @media (max-width: 600px) {
   .main-principal img {
-    border-radius: 255px;
     width: 400px; }
   .main-principal p {
-    font-family: "Roboto", sans-serif;
-    color: aliceblue;
-    width: 300px;
-    font-size: 20px;
-    padding: 10px; } }
+    font-size: 20px; } }
 
 @media (max-width: 600px) {
   .nos h3 {
