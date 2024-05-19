@@ -18,16 +18,19 @@
 .navegacion {
   background-color: #e6e92a;
   padding: 10px; }
-  .navegacion ul {
+  .navegacion div a img {
+    width: 100px;
+    border-radius: 255px; }
+  .navegacion div ul {
     display: flex;
     background-color: #c95858;
     list-style-type: none;
     justify-content: center;
     border-radius: 30px; }
-    .navegacion ul li {
+    .navegacion div ul li {
       padding: 10px;
       margin: 10px; }
-      .navegacion ul li a {
+      .navegacion div ul li a {
         color: white;
         text-align: center;
         box-shadow: 2px 2px; }
@@ -51,14 +54,14 @@ body {
     font-size: 30px;
     width: 600px; }
 
-.main-principal img {
-  border-radius: 255px;
-  width: 500px; }
+.main-principal h1 {
+  font-size: 150px;
+  color: aliceblue; }
 
 .main-principal p {
   font-family: "Roboto", sans-serif;
   color: aliceblue;
-  width: auto;
+  width: 800px;
   font-size: 30px;
   padding: 10px;
   border: 10px; }

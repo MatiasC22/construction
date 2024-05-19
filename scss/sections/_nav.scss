@@ -3,7 +3,15 @@
 .navegacion{
     background-color: $mostaza;
     padding: 10px;
-    ul{
+    div{
+        a{
+            img{
+                width: 100px;
+                
+                border-radius: 255px;
+            }
+        }
+        ul{
         display: flex;
         background-color: $rosita;
         list-style-type: none;
@@ -19,4 +27,6 @@
             }
         } 
     }
+    }
+    
 }

@@ -1,13 +1,13 @@
 .main-principal{
     @extend .flex-column;
-    img{
-        border-radius: 255px;
-        width: 500px;
+    h1{
+        font-size: 150px;
+        color: $blanco-1;
     }
     p{
         font-family: "Roboto", sans-serif;
         color: $blanco-1;
-        width: auto;
+        width: 800px;
         font-size: 30px;
         padding: 10px;
         border: 10px;
