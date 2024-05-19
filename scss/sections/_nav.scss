@@ -1,19 +1,18 @@
 /* Barra de Navegacion */
 
 .navegacion{
-    background-color: $mostaza;
+    background-color: $nav-fondo;
     padding: 10px;
     div{
         a{
             img{
-                width: 100px;
-                
+                width: 100px;                
                 border-radius: 255px;
             }
         }
         ul{
         display: flex;
-        background-color: $rosita;
+        background-color: $nav-1;
         list-style-type: none;
         justify-content: center;
         border-radius: 30px;
@@ -21,9 +20,13 @@
             padding: 10px;
             margin: 10px;
             a{
-                color: white;
+                color: $blanco;
                 text-align: center;
-                box-shadow: 2px 2px;
+                box-shadow: 2px 2px 2px 2px;
+                border-radius: 5px;
+            }
+            a:hover{
+                color: $blanco-1;
             }
         } 
     }
