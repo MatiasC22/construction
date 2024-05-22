@@ -1,0 +1,83 @@
+.main-novedades{
+    @extend .flex-column;
+    .trabajos{
+
+        height: 600px;
+
+        .puente{
+            border: black solid 3px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center; 
+            gap: 20px; 
+            border-radius: 5px;
+             
+            .tex-puente{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    color: $blanco;
+                    font-size: 24px;
+                }
+            }
+            
+        }
+
+        .edificio{
+            border: black solid 3px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center; 
+            gap: 20px; 
+            border-radius: 5px;
+             
+            .tex-edificio{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    color: $blanco;
+                    font-size: 24px;
+                }
+            }
+            
+        }
+
+        .escuela{
+            border: black solid 3px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center; 
+            gap: 20px; 
+            border-radius: 5px;
+             
+            .tex-escuela{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    color: $blanco;
+                    font-size: 24px;
+                }
+            }
+            
+        }
+        
+    }
+
+    
+
+    
+    
+
+
+    
+
+}

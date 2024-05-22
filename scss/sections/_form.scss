@@ -1,7 +1,7 @@
 /* Formulario */
 .form {
     @extend .flex-column;
-    color: aliceblue;
+    color: $negro;
     font-size: 30px;
     label{
         input{
