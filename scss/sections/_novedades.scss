@@ -1,8 +1,11 @@
 .main-novedades{
-    @extend .flex-column;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
     .trabajos{
 
         height: 600px;
+        padding: 10px;
 
         .puente{
             border: black solid 3px;

@@ -1,4 +1,23 @@
 /* Formulario */
+.contacto{
+    @extend .flex-column;
+    .text-cont{
+        color: $negro;
+        padding: 20px;
+        h2{
+            font-size: 40px;
+        }
+        h3{
+
+            font-size: 30px;
+
+        }
+       p{
+        font-size: 30px;
+       }
+       
+    }
+}
 .form {
     @extend .flex-column;
     color: $negro;

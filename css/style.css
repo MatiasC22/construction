@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box; }
 
-.flex-column, body .nos, .main-principal, main .trabajos, .form, .main-galeria, .main-novedades {
+.flex-column, body .nos, .main-principal, main .trabajos, .contacto, .form, .main-galeria {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -87,6 +87,16 @@ main .trabajos div {
     text-align: left; }
 
 /* Formulario */
+.contacto .text-cont {
+  color: black;
+  padding: 20px; }
+  .contacto .text-cont h2 {
+    font-size: 40px; }
+  .contacto .text-cont h3 {
+    font-size: 30px; }
+  .contacto .text-cont p {
+    font-size: 30px; }
+
 .form {
   color: black;
   font-size: 30px; }
@@ -163,53 +173,58 @@ main .trabajos div {
   .main-galeria .grid-galeria .img-6 img {
     width: 100%; }
 
-.main-novedades .trabajos {
-  height: 600px; }
-  .main-novedades .trabajos .puente {
-    border: black solid 3px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 20px;
-    border-radius: 5px; }
-    .main-novedades .trabajos .puente .tex-puente {
-      display: flex;
-      flex-direction: column; }
-      .main-novedades .trabajos .puente .tex-puente h3 {
-        font-size: 35px; }
-      .main-novedades .trabajos .puente .tex-puente p {
-        color: #F7FFF7;
-        font-size: 24px; }
-  .main-novedades .trabajos .edificio {
-    border: black solid 3px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 20px;
-    border-radius: 5px; }
-    .main-novedades .trabajos .edificio .tex-edificio {
-      display: flex;
-      flex-direction: column; }
-      .main-novedades .trabajos .edificio .tex-edificio h3 {
-        font-size: 35px; }
-      .main-novedades .trabajos .edificio .tex-edificio p {
-        color: #F7FFF7;
-        font-size: 24px; }
-  .main-novedades .trabajos .escuela {
-    border: black solid 3px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 20px;
-    border-radius: 5px; }
-    .main-novedades .trabajos .escuela .tex-escuela {
-      display: flex;
-      flex-direction: column; }
-      .main-novedades .trabajos .escuela .tex-escuela h3 {
-        font-size: 35px; }
-      .main-novedades .trabajos .escuela .tex-escuela p {
-        color: #F7FFF7;
-        font-size: 24px; }
+.main-novedades {
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+  .main-novedades .trabajos {
+    height: 600px;
+    padding: 10px; }
+    .main-novedades .trabajos .puente {
+      border: black solid 3px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 20px;
+      border-radius: 5px; }
+      .main-novedades .trabajos .puente .tex-puente {
+        display: flex;
+        flex-direction: column; }
+        .main-novedades .trabajos .puente .tex-puente h3 {
+          font-size: 35px; }
+        .main-novedades .trabajos .puente .tex-puente p {
+          color: #F7FFF7;
+          font-size: 24px; }
+    .main-novedades .trabajos .edificio {
+      border: black solid 3px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 20px;
+      border-radius: 5px; }
+      .main-novedades .trabajos .edificio .tex-edificio {
+        display: flex;
+        flex-direction: column; }
+        .main-novedades .trabajos .edificio .tex-edificio h3 {
+          font-size: 35px; }
+        .main-novedades .trabajos .edificio .tex-edificio p {
+          color: #F7FFF7;
+          font-size: 24px; }
+    .main-novedades .trabajos .escuela {
+      border: black solid 3px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 20px;
+      border-radius: 5px; }
+      .main-novedades .trabajos .escuela .tex-escuela {
+        display: flex;
+        flex-direction: column; }
+        .main-novedades .trabajos .escuela .tex-escuela h3 {
+          font-size: 35px; }
+        .main-novedades .trabajos .escuela .tex-escuela p {
+          color: #F7FFF7;
+          font-size: 24px; }
 
 /* Footer */
 footer {
