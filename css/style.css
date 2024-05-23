@@ -279,8 +279,12 @@ main .trabajos div {
 
 @media (max-width: 615px) {
   .footer {
-    flex-direction: column;
+    flex-direction: center;
     justify-content: normal;
     align-content: normal;
     align-items: center;
-    border: black solid 2px; } }
+    border: black solid 2px; }
+    .footer .sec1 {
+      flex-direction: column; }
+    .footer .sec2 {
+      flex-direction: column; } }
