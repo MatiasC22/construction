@@ -1,0 +1,36 @@
+@media (max-width: 782px) {
+    
+    .main-novedades{
+
+        .trabajos{
+            .puente{
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 350px;
+                }
+
+            }
+            .edificio{
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 350px;
+                }
+
+            }
+            .escuela{
+
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 350px;
+                }
+
+            
+
+            }
+        }
+        
+    }
+    }

@@ -32,7 +32,7 @@
       margin: 10px; }
       .navegacion div ul li a {
         color: black;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         box-shadow: 2px 2px 2px 2px;
         border-radius: 5px; }
@@ -173,58 +173,29 @@ main .trabajos div {
   .main-galeria .grid-galeria .img-6 img {
     width: 100%; }
 
-.main-novedades {
-  display: flex;
-  flex-direction: column;
-  padding: 10px; }
-  .main-novedades .trabajos {
-    height: 600px;
-    padding: 10px; }
-    .main-novedades .trabajos .puente {
-      border: black solid 3px;
-      display: grid;
-      grid-template-columns: auto 1fr;
-      align-items: center;
-      gap: 20px;
-      border-radius: 5px; }
-      .main-novedades .trabajos .puente .tex-puente {
-        display: flex;
-        flex-direction: column; }
-        .main-novedades .trabajos .puente .tex-puente h3 {
-          font-size: 35px; }
-        .main-novedades .trabajos .puente .tex-puente p {
-          color: #F7FFF7;
-          font-size: 24px; }
-    .main-novedades .trabajos .edificio {
-      border: black solid 3px;
-      display: grid;
-      grid-template-columns: auto 1fr;
-      align-items: center;
-      gap: 20px;
-      border-radius: 5px; }
-      .main-novedades .trabajos .edificio .tex-edificio {
-        display: flex;
-        flex-direction: column; }
-        .main-novedades .trabajos .edificio .tex-edificio h3 {
-          font-size: 35px; }
-        .main-novedades .trabajos .edificio .tex-edificio p {
-          color: #F7FFF7;
-          font-size: 24px; }
-    .main-novedades .trabajos .escuela {
-      border: black solid 3px;
-      display: grid;
-      grid-template-columns: auto 1fr;
-      align-items: center;
-      gap: 20px;
-      border-radius: 5px; }
-      .main-novedades .trabajos .escuela .tex-escuela {
-        display: flex;
-        flex-direction: column; }
-        .main-novedades .trabajos .escuela .tex-escuela h3 {
-          font-size: 35px; }
-        .main-novedades .trabajos .escuela .tex-escuela p {
-          color: #F7FFF7;
-          font-size: 24px; }
+.main-novedades .trabajos {
+  margin: auto; }
+  .main-novedades .trabajos .puente {
+    border: black solid 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: center; }
+    .main-novedades .trabajos .puente img {
+      width: 250px; }
+  .main-novedades .trabajos .edificio {
+    border: black solid 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: center; }
+    .main-novedades .trabajos .edificio img {
+      width: 250px; }
+  .main-novedades .trabajos .escuela {
+    border: black solid 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: center; }
+    .main-novedades .trabajos .escuela img {
+      width: 250px; }
 
 /* Footer */
 footer {
@@ -285,3 +256,20 @@ footer {
 @media (max-width: 600px) {
   .form {
     font-size: 20px; } }
+
+@media (max-width: 782px) {
+  .main-novedades .trabajos .puente {
+    flex-direction: column;
+    align-items: center; }
+    .main-novedades .trabajos .puente img {
+      width: 350px; }
+  .main-novedades .trabajos .edificio {
+    flex-direction: column;
+    align-items: center; }
+    .main-novedades .trabajos .edificio img {
+      width: 350px; }
+  .main-novedades .trabajos .escuela {
+    flex-direction: column;
+    align-items: center; }
+    .main-novedades .trabajos .escuela img {
+      width: 350px; } }
