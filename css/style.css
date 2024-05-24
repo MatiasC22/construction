@@ -129,6 +129,7 @@ main .trabajos div {
     grid-area: img1;
     background-color: #8b8b8b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-1 img {
@@ -137,6 +138,7 @@ main .trabajos div {
     grid-area: img2;
     background-color: #8b8b8b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-2 img {
@@ -145,6 +147,7 @@ main .trabajos div {
     grid-area: img3;
     background-color: #8b8b8b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-3 img {
@@ -153,6 +156,7 @@ main .trabajos div {
     grid-area: img4;
     background-color: #8b8b8b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-4 img {
@@ -161,6 +165,7 @@ main .trabajos div {
     grid-area: img5;
     background-color: #8b8b8b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-5 img {
@@ -169,6 +174,7 @@ main .trabajos div {
     grid-area: img6;
     background-color: #8b8b8b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-6 img {
