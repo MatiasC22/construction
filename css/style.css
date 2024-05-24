@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box; }
 
-.flex-column, body .nos, .main-principal, main .trabajos, .contacto, .form, .main-galeria {
+.flex-column, body .nos, .main-principal, .main-principal .principal, main .trabajos, .contacto, .form, .main-galeria {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -55,17 +55,18 @@ body {
     font-size: 30px;
     width: 600px; }
 
-.main-principal h1 {
-  font-size: 150px;
-  color: black; }
-
-.main-principal p {
-  font-family: "Roboto", sans-serif;
-  color: aliceblue;
-  width: 800px;
-  font-size: 30px;
-  padding: 10px;
-  border: 10px; }
+.main-principal .principal {
+  width: 600px;
+  padding: 15px; }
+  .main-principal .principal h1 {
+    font-size: 100px;
+    color: black; }
+  .main-principal .principal p {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+    border: 10px; }
 
 main h2 {
   color: black;
@@ -241,11 +242,19 @@ main .trabajos div {
   main .trabajos div p {
     width: 300px; } }
 
+@media (max-width: 823px) {
+  .main-principal .principal h1 {
+    font-size: 75px; }
+  .main-principal .principal p {
+    font-size: 28px; } }
+
 @media (max-width: 600px) {
-  .main-principal img {
+  .main-principal .principal {
     width: 400px; }
-  .main-principal p {
-    font-size: 20px; } }
+    .main-principal .principal h1 {
+      font-size: 60px; }
+    .main-principal .principal p {
+      font-size: 25px; } }
 
 @media (max-width: 600px) {
   .nos h3 {

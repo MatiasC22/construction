@@ -1,16 +1,26 @@
 .main-principal{
     @extend .flex-column;
-    h1{
-        font-size: 150px;
+    .principal{
+        width: 600px;
+        @extend .flex-column;
+        padding: 15px;
+
+
+        h1{
+        font-size: 100px;
         color: $negro;
     }
     p{
         font-family: "Roboto", sans-serif;
         color: $blanco-1;
-        width: 800px;
+        
         font-size: 30px;
         padding: 10px;
         border: 10px;
     }
+    }
+
+    
+    
 
 }
