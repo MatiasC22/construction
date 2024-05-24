@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box; }
 
-.flex-column, body .nos, .main-principal, .main-principal .principal, main .trabajos, .contacto, .form, .main-galeria {
+.flex-column, body .nos, .main-principal, .main-principal .principal, main .trabajos, .contacto, .main-galeria {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -98,19 +98,52 @@ main .trabajos div {
   .contacto .text-cont p {
     font-size: 30px; }
 
-.form {
-  color: black;
-  font-size: 30px; }
-  .form label input {
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px; }
-  .form label textarea {
-    border-radius: 10px; }
-  .form .boton {
-    background-color: #f8f8f8;
-    border-radius: 10px; }
+.contacto .grid-contacto {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas: "direccion telefono email" "iframe formulario formulario" "iframe formulario formulario"; }
+  .contacto .grid-contacto .caja {
+    border: black solid 3px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #de9800; }
+  .contacto .grid-contacto .c1 {
+    grid-area: direccion; }
+  .contacto .grid-contacto .c2 {
+    grid-area: telefono; }
+  .contacto .grid-contacto .c3 {
+    grid-area: email; }
+  .contacto .grid-contacto .c4 {
+    grid-area: iframe; }
+    .contacto .grid-contacto .c4 iframe {
+      height: 900px;
+      width: auto;
+      border-radius: 15px; }
+  .contacto .grid-contacto .c5 {
+    grid-area: formulario;
+    background-color: #c5ee3d; }
+    .contacto .grid-contacto .c5 .form {
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 30px; }
+      .contacto .grid-contacto .c5 .form label {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .contacto .grid-contacto .c5 .form label input {
+          padding: 10px;
+          margin: 10px;
+          border-radius: 10px; }
+        .contacto .grid-contacto .c5 .form label textarea {
+          border-radius: 10px; }
+      .contacto .grid-contacto .c5 .form .boton {
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        margin: 15px;
+        align-items: end; }
 
 .main-galeria .grid-galeria {
   display: grid;
@@ -271,9 +304,9 @@ main .trabajos div {
     width: 300px;
     font-size: 20px; } }
 
-@media (max-width: 600px) {
-  .form {
-    font-size: 20px; } }
+@media (max-width: 995px) {
+  .contacto .grid-contacto {
+    grid-template-columns: 1fr 1fr; } }
 
 @media (max-width: 782px) {
   .main-novedades .trabajos .puente {

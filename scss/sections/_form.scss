@@ -17,27 +17,80 @@
        }
        
     }
-}
-.form {
-    @extend .flex-column;
-    color: $negro;
-    font-size: 30px;
-    label{
-        input{
-        display: block;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 10px;
-        }
-        textarea{
-            border-radius: 10px;
-        }
-    }
-    .boton{
-        background-color: $btn;
-        border-radius: 10px;
+    .grid-contacto{
         
-    }
-    
+        display: grid;
+        grid-template-columns:300px 300px 300px;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-areas: 
+        "direccion telefono email"
+        "iframe formulario formulario"
+        "iframe formulario formulario"
+           
+        ;
+        .caja{
+            
+            border: black solid 3px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: rgb(222, 152, 0);
+               
+        }
+        .c1{
+                grid-area: direccion;
+                
+            }
+        .c2{
+                grid-area: telefono;
+                
+            }
+        .c3{
+                grid-area: email;
+                
+            }
+        .c4{
+                grid-area: iframe;
+                
+                
+                iframe{
+                    height: 900px;
+                    width: auto;
+                    border-radius: 15px;
+                }
+            }
+        .c5{
+                grid-area: formulario;
+                background-color: rgb(197, 238, 61);
+                .form {
+                        display: flex;
+                        flex-direction: column;
 
+                        color: $negro;
+                        font-size: 30px;
+                        label{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            input{
+                            
+                            padding: 10px;
+                            margin: 10px;
+                            border-radius: 10px;
+                            }
+                            textarea{
+                                border-radius: 10px;
+                            }
+                        }
+                        .boton{
+                            background-color: $btn;
+                            border-radius: 10px;
+                            margin: 15px;
+                            align-items: end;
+                            
+                        }
+                
+            }
+        }
+    }
 }

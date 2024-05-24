@@ -1,6 +1,10 @@
-@media (max-width: 600px) {
-    .form{
-        font-size: 20px;
+@media (max-width: 995px) {
+    .contacto{
+        .grid-contacto{
+            grid-template-columns: 1fr 1fr; 
+        }
+
     }
     
 }
+
