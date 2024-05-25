@@ -18,49 +18,49 @@
        
     }
     .grid-contacto{
-        
-        display: grid;
-        grid-template-columns:300px 300px 300px;
-        grid-template-rows: 100px 100px 100px;
-        grid-template-areas: 
-        "direccion telefono email"
-        "iframe formulario formulario"
-        "iframe formulario formulario"
-           
-        ;
-        .caja{
-            
-            border: black solid 3px;
-            margin: 15px;
-            text-align: center;
-            border-radius: 10px;
-            background-color: rgb(222, 152, 0);
-               
+        .contacto-1{
+            display: flex;
+         flex-direction: row;
+         align-items: center;
+         
+         .c1{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            align-items: center;
+            flex: 1;
+         }
+         .c2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            flex: 1;
+         }
+         .c3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            flex: 1;
+         }
         }
-        .c1{
-                grid-area: direccion;
+        .contacto-2{
+            display: flex;
+            flex-direction: center;
+            align-items: center;
+         .c4{
                 
-            }
-        .c2{
-                grid-area: telefono;
-                
-            }
-        .c3{
-                grid-area: email;
-                
-            }
-        .c4{
-                grid-area: iframe;
                 
                 
                 iframe{
-                    height: 900px;
+                    height: 700px;
                     width: auto;
                     border-radius: 15px;
                 }
             }
         .c5{
-                grid-area: formulario;
+                
                 background-color: rgb(197, 238, 61);
                 .form {
                         display: flex;
@@ -92,5 +92,20 @@
                 
             }
         }
+        }
+        
+       
+        .caja{
+            display: flex;           
+            align-items: center;
+            border: black solid 3px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: rgb(222, 152, 0);
+               
+        }
+        
+        
     }
 }

@@ -1,7 +1,38 @@
-@media (max-width: 995px) {
+@media (max-width: 751px) {
     .contacto{
         .grid-contacto{
-            grid-template-columns: 1fr 1fr; 
+           .contacto-1{
+            flex-direction: column;
+            .c1{
+                flex-direction: row;
+                h4{
+                    padding: 10px; 
+                 }
+            }
+            .c2{
+                flex-direction: row;
+                h4{
+                   padding: 10px; 
+                }
+                
+            }
+            .c3{
+                flex-direction: row;
+                h4{
+                    padding: 10px; 
+                 }
+            }
+           }
+           .contacto-2{
+            flex-direction: column;
+            .c4{
+
+                iframe{
+                    height: 200px;
+                }
+                
+            }
+           }
         }
 
     }
