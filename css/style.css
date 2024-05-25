@@ -165,7 +165,7 @@ main .trabajos div {
   display: grid;
   grid-template-areas: "img1 img1 img1 img3 img3 img3" "img1 img1 img1 img3 img3 img3" "img4 img4 img4 img6 img6 img6" "img4 img4 img4 img6 img6 img6" "img2 img2 img2 img5 img5 img5" "img2 img2 img2 img5 img5 img5";
   grid-template-rows: repeat(6, 200px);
-  grid-template-columns: repeat(6, 200px);
+  grid-template-columns: repeat(6, 150px);
   gap: 15px;
   padding: 15px; }
   .main-galeria .grid-galeria div {
@@ -184,7 +184,7 @@ main .trabajos div {
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-1 img {
-    width: 80%; }
+    width: 95%; }
   .main-galeria .grid-galeria .img-2 {
     grid-area: img2;
     background-color: #f9f4f4;
@@ -193,7 +193,7 @@ main .trabajos div {
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-2 img {
-    width: 80%; }
+    width: 95%; }
   .main-galeria .grid-galeria .img-3 {
     grid-area: img3;
     background-color: #f9f4f4;
@@ -202,7 +202,7 @@ main .trabajos div {
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-3 img {
-    width: 80%; }
+    width: 95%; }
   .main-galeria .grid-galeria .img-4 {
     grid-area: img4;
     background-color: #f9f4f4;
@@ -211,7 +211,7 @@ main .trabajos div {
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-4 img {
-    width: 80%; }
+    width: 95%; }
   .main-galeria .grid-galeria .img-5 {
     grid-area: img5;
     background-color: #f9f4f4;
@@ -220,7 +220,7 @@ main .trabajos div {
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-5 img {
-    width: 80%; }
+    width: 95%; }
   .main-galeria .grid-galeria .img-6 {
     grid-area: img6;
     background-color: #f9f4f4;
@@ -229,7 +229,7 @@ main .trabajos div {
     justify-content: center;
     align-items: center; }
   .main-galeria .grid-galeria .img-6 img {
-    width: 80%; }
+    width: 95%; }
 
 .main-novedades .trabajos {
   margin: auto; }
@@ -290,7 +290,7 @@ main .trabajos div {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 300px); }
     .main-galeria .grid-galeria img {
-      height: 100%; } }
+      height: 80%; } }
 
 @media (max-width: 600px) {
   main .trabajos div img {
