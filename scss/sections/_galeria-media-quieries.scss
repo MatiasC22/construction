@@ -1,6 +1,7 @@
-@media (max-width: 765px) {
+@media (max-width: 965px) {
     
     .main-galeria{
+
         .grid-galeria{
         grid-template-areas: 
         "img1"
@@ -11,7 +12,7 @@
         "img6"
         ; 
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 200px); 
+        grid-template-rows: repeat(6, 300px); 
         
         img{
             height: 100%;
